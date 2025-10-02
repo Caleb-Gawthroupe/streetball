@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985480551767",
+    "project_id": "streetball-f9e53",
+    "storage_bucket": "streetball-f9e53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985480551767:android:40641c00abd0341c2f7212",
+        "android_client_info": {
+          "package_name": "com.mycompany.streetball"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9QQ6gjdQ2fyByvUV4YvB7limYskWiXRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
