@@ -1,23 +1,19 @@
-# 🏀 Streetball
+# Streetball
 
-**The future of pick-up basketball around the world.**
+**The future of pick-up basketball.**
 
-Streetball is a mobile application that brings the addictive ranking systems of competitive video games to the world of basketball, creating a new competitive experience for millions of hoopers worldwide.
+Streetball is a mobile application that brings the addictive ranking systems of competitive video games to the world of basketball.
 
-## 🎯 Vision
+## Features
 
-Streetball's vision is to create an easy-to-use network for hoopers to start and find pick-up games around the world. By combining social networking, geolocation, and competitive ranking systems, Streetball transforms casual pick-up basketball into an engaging, trackable, and competitive experience.
-
-## ✨ Features
-
-### 🎮 Core Functionality
+### Core Functionality
 - **Game Creation & Discovery**: Create and find pick-up basketball games in your area using interactive maps
 - **Real-time Game Management**: Join games, track participants, and manage game settings on the fly
 - **Competitive Ranking System**: Progress through multiple rank tiers from Unranked to Street Legend
 - **Match History**: Track your basketball journey with detailed game history and statistics
 - **Performance Analytics**: Visualize your progress with interactive charts and graphs
 
-### 👥 Social Features
+### Social Features
 - **Friend System**: Connect with other hoopers and build your basketball network
 - **Friend Requests**: Send and receive friend requests to grow your community
 - **Player Profiles**: View detailed profiles including rank, stats, and match history
@@ -26,27 +22,27 @@ Streetball's vision is to create an easy-to-use network for hoopers to start and
 ### 🏆 Ranking System
 Progress through competitive tiers:
 - 🥉 **Unranked** - Starting point for all players
-- 🥉 **Bronze** (3 levels) - Beginning your journey
-- 🥈 **Silver** (3 levels) - Developing skills
-- 🥇 **Gold** (3 levels) - Competitive player
-- 💎 **Elite** (3 levels) - Top-tier hooper
-- ⭐ **All Star** (3 levels) - Elite competition
-- 🏆 **Hall of Fame** (3 levels) - Legendary status
-- 👑 **Street Legend** - The pinnacle of streetball
+- 🥉 **Bronze** (3 levels)
+- 🥈 **Silver** (3 levels)
+- 🥇 **Gold** (3 levels)
+- 💎 **Elite** (3 levels)
+- ⭐ **All Star** (3 levels
+- 🏆 **Hall of Fame** (3 levels)
+- 👑 **Street Legend** 
 
-### 📍 Location-Based Features
+### Location-Based Features
 - **Google Maps Integration**: Find games near you with interactive map interface
 - **Geolocation Services**: Automatic location detection for seamless game discovery
 - **Location-based Game Creation**: Set up games at your favorite courts
 
-### 🔐 Authentication & Security
+### Authentication & Security
 - **Firebase Authentication**: Secure user authentication
 - **Email/Password Login**: Traditional authentication method
 - **Google Sign-In**: Quick authentication with Google accounts
 - **Apple Sign-In**: Seamless authentication for iOS users
 - **Password Recovery**: Easy password reset functionality
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend Framework
 - **Flutter** - Cross-platform mobile development framework
@@ -170,7 +166,7 @@ flutter build ios --release
 flutter build web --release
 ```
 
-## 📊 Database Schema
+## Database Schema
 
 ### Collections
 
@@ -190,7 +186,7 @@ flutter build web --release
 - Friend request management
 - Fields: sender_id, receiver_id, status, timestamp, etc.
 
-## 🔒 Security
+## Security
 
 Firestore security rules ensure:
 - Users can only read/write their own user documents
@@ -198,7 +194,7 @@ Firestore security rules ensure:
 - Match history and friend requests are user-specific
 - Authentication required for all sensitive operations
 
-## 🎨 Design System
+## Design System
 
 The app features a custom design system with:
 - Custom color schemes and themes
@@ -207,39 +203,7 @@ The app features a custom design system with:
 - Responsive layouts for various screen sizes
 - Smooth animations and transitions
 
-## 📱 App Features by Page
-
-### Home Page
-- View nearby games on an interactive map
-- Quick game creation
-- Active game status
-- Navigation to profile and friends
-
-### Profile Page
-- Personal stats and rank display
-- Match history with visual graphs
-- Rank progression tracking
-- Settings access
-
-### Friends Page
-- Friend list management
-- Incoming/outgoing friend requests
-- Friend profile viewing
-- Quick game invitations
-
-### Create Game
-- Map-based court selection
-- Game settings configuration
-- Player capacity management
-- Time and date scheduling
-
-### In-Game Page
-- Real-time game status
-- Player list
-- Game controls (start, end, force start)
-- Score tracking
-
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -263,7 +227,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is private and not currently licensed for public use.
 
-## 👨‍💻 Development
+## Development
 
 ### Code Generation
 This project uses FlutterFlow for rapid UI development and code generation. Custom code and business logic are integrated alongside generated code.
@@ -279,24 +243,20 @@ This project uses FlutterFlow for rapid UI development and code generation. Cust
 - Lazy loading for lists and data
 - Optimized map rendering
 
-## 📞 Support
+## Support
 
 For support, please open an issue in the GitHub repository or contact the development team.
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Tournament system
 - [ ] Team creation and management
-- [ ] Live game streaming
-- [ ] Advanced statistics and analytics
 - [ ] Leaderboards (local, regional, global)
 - [ ] Achievement system
 - [ ] In-app messaging
 - [ ] Court reviews and ratings
-- [ ] Sponsorship integration
-- [ ] Merchandise store
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - FlutterFlow for rapid development tools
 - Firebase for backend infrastructure
@@ -304,5 +264,3 @@ For support, please open an issue in the GitHub repository or contact the develo
 - The basketball community for inspiration
 
 ---
-
-**Made with ❤️ for hoopers worldwide**
